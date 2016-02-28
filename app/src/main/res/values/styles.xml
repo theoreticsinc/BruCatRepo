@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">true</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+        <item name="logo">@android:color/transparent</item>
+    </style>
+
+    <style name="SplashTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="listStyle1">
+        <item name="android:textSize">8sp</item>
+    </style>
+    <style name="CodeFont" parent="@android:style/TextAppearance.Small">
+        <item name="android:textColor">#FFFF00</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+</resources>

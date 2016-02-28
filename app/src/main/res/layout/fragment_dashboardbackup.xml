@@ -1,0 +1,148 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/details"
+    tools:context="com.theoreticsinc.brucat.fragments.DashboardFragment">
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal|bottom"
+            android:foregroundGravity="center_vertical|center_horizontal"
+            android:weightSum="5">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="4"
+                android:weightSum="2"
+                android:layout_gravity="center_horizontal">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:id="@+id/announcementsBtn"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView"
+                        android:src="@drawable/more_info"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView"
+                        android:layout_weight="3"
+                        android:textColor="#0c6cb5"
+                        android:text="Announcements" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:id="@+id/featuredActivitiesBtn"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView4"
+                        android:src="@drawable/more_info"
+                        android:layout_weight="1" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:id="@+id/textView3"
+                        android:layout_weight="3"
+                        android:textColor="#0c6cb5"
+                        android:text="Featured Activity" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageView5" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ListView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/homeList"
+                    android:layout_weight="4" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/screendarkblue"
+                android:paddingLeft="10dp"
+                android:foregroundGravity="center"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/bottomNav"
+                android:layout_weight="2">
+
+                <ImageView
+                    android:layout_width="@dimen/tab_botton_icon_width"
+                    android:layout_height="@dimen/tab_botton_icon_height"
+                    android:id="@+id/Home"
+                    android:src="@drawable/tabhome"
+                    android:layout_weight="1" />
+                <ImageView
+                    android:layout_width="@dimen/tab_botton_icon_width"
+                    android:layout_height="@dimen/tab_botton_icon_height"
+                    android:id="@+id/Alerts"
+                    android:src="@drawable/tabalerts"
+                    android:layout_weight="1" />
+                <ImageView
+                    android:layout_width="@dimen/tab_botton_icon_width"
+                    android:layout_height="@dimen/tab_botton_icon_height"
+                    android:id="@+id/Events"
+                    android:src="@drawable/tabevents"
+                    android:layout_weight="1" />
+                <ImageView
+                    android:layout_width="@dimen/tab_botton_icon_width"
+                    android:layout_height="@dimen/tab_botton_icon_height"
+                    android:id="@+id/Notif"
+                    android:src="@drawable/tabnotifications"
+                    android:layout_weight="1" />
+                <ImageView
+                    android:layout_width="@dimen/tab_botton_icon_width"
+                    android:layout_height="@dimen/tab_botton_icon_height"
+                    android:id="@+id/More"
+                    android:src="@drawable/tabmore"
+                    android:layout_weight="1" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+</FrameLayout>

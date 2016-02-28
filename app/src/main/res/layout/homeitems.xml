@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="match_parent"
+		android:background="#dfdfdf"
+		android:paddingTop="10dp">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/icon"
+			android:src="@drawable/more_info"
+			android:layout_weight="1" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/titleText"
+			android:layout_weight="5"
+			android:textColor="#0c6cb5"
+			android:text="Title" />
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/badge" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="match_parent"
+		android:background="#dfdfdf">
+
+		<ImageView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/previewIcon"
+			android:src="@drawable/stub"
+			android:layout_weight="1" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceSmall"
+			android:text="Small Text"
+			android:id="@+id/previewText"
+			android:layout_weight="5"
+			android:textColor="#000000" />
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="match_parent"
+		android:gravity="right"
+		android:id="@+id/typeLLayout"
+		android:background="#15093e"
+		android:paddingBottom="10dp">
+
+		<ImageView
+			android:layout_width="20dp"
+			android:layout_height="20dp"
+			android:id="@+id/typeIcon"
+			android:src="@drawable/fb_feed" />
+	</LinearLayout>
+
+</LinearLayout>

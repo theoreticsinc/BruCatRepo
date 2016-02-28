@@ -1,0 +1,9 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="tab_botton_icon_width">55dp</dimen>
+    <dimen name="tab_botton_icon_height">55dp</dimen>
+    <dimen name="detail_pix_width">250dp</dimen>
+    <bool name="portrait_only">true</bool>
+</resources>
