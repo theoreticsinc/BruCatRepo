@@ -102,7 +102,7 @@
             android:foregroundGravity="center"
             android:layout_gravity="center_horizontal"
             android:id="@+id/bottomNav"
-            android:layout_weight=".1">
+            android:layout_weight="0">
 
             <ImageView
                 android:layout_width="@dimen/tab_botton_icon_width"
